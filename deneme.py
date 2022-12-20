@@ -86,15 +86,9 @@ print(genelmaas)
 print("hasan" in genelmaas)
 print("ayşe" in genelmaas)
 """
-
+"""
 if __name__ == '__main__':
     n = int(input())
-"""
-while n > 0:
-    n = (n - 1)
-    print(n * n)
-"""    
-
 
 x = -1
 while 0 < n:
@@ -102,3 +96,40 @@ while 0 < n:
     n = n - 1
     y = x * x
     print(y)
+"""
+
+"""
+notlar = [4, 5, 6, 7, 8, 34, 54, 65]
+t = 0
+for e in notlar:
+    t += e
+
+ortalama = t / len(notlar)
+
+print(ortalama)
+
+for o in range(len(notlar)):
+    print(notlar[o])
+    break
+
+for o in range(len(notlar)):
+    t += notlar[o]
+ortalama = t / len(notlar)
+print("ortalama", ortalama)
+"""
+
+"""
+s = "merhaba nasılsın ?"
+
+print(s.split(" "))
+
+
+l = ['asda', 'fgdf', 'rtyrty']
+print(".".join(l))
+"""
+
+
+squares = []
+
+
+print(squares=[i * i for i in range(1, 11)])
