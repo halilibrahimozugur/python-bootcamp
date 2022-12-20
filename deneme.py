@@ -64,3 +64,41 @@ print(toplam)
 l = ["d", "fd", "k", "ba"]
 print(sorted(l))
 """
+
+"""
+x = 10
+y = 20
+
+konum = (x, y)
+
+print(konum)
+"""
+
+"""
+maas = [10000, 15000, 20000]
+kisi = ["ahmet", "mehmet", "ayşe"]
+"""
+
+"""
+genelmaas = {"ahmet": 10000, "mehmet": 15000, "ayşe": 20000}
+genelmaas["fatma"] = 30000
+print(genelmaas)
+print("hasan" in genelmaas)
+print("ayşe" in genelmaas)
+"""
+
+if __name__ == '__main__':
+    n = int(input())
+"""
+while n > 0:
+    n = (n - 1)
+    print(n * n)
+"""    
+
+
+x = -1
+while 0 < n:
+    x = x + 1
+    n = n - 1
+    y = x * x
+    print(y)
