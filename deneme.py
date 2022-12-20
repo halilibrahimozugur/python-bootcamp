@@ -128,8 +128,60 @@ l = ['asda', 'fgdf', 'rtyrty']
 print(".".join(l))
 """
 
+"""
+squares = [i * i for i in range(1, 14)]
 
-squares = []
+
+print(squares)
+"""
+
+i = 4
+d = 4.0
+s = 'HackerRank '
+# Declare second integer, double, and String variables.
+"""
+i = 3
+d = 2.8
+s = 'is my favorite platform!'
+
+    16
+
+    8.0
+
+    HackerRank is the best place to learn and practice coding!
+
+    
+    7
+
+    6.8
+
+    HackerRank is my favorite platform!
+"""   
+    
+a = 12
+b = 4.0
+c = "is the best place to learn and practice coding!"
+
+q = 4
+w = 4.0
+e = "HackerRank "
+# Read and save an integer, double, and String to your variables.
+
+# Print the sum of both integer variables on a new line.
+
+# Print the sum of the double variables on a new line.
+
+# Concatenate and print the String variables on a new line
 
 
-print(squares=[i * i for i in range(1, 11)])
+if i == 4:
+    print(i + a)
+    print(d + b)
+    print(s + c)    
+else:
+    print(i + q)
+    print(d + w)
+    print(s + e) 
+    
+# The 's' variable above should be printed first.
+
